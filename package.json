@@ -1,0 +1,26 @@
+{
+  "name": "infusionsoft",
+  "version": "1.0.0",
+  "description": "infusionsoft oauth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ratne",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "google-spreadsheet": "^3.2.0",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.0",
+    "nodejs-base64-converter": "^1.0.5",
+    "passport": "^0.4.1",
+    "@albertopronails/passport-infusionsoft": "^0.0.4",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
