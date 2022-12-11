@@ -3,7 +3,7 @@ require('dotenv').config()
 const app = express()
 const port = process.env.PORT
 const passport = require('passport');
-const InfusionsoftStrategy  = require('passport-infusionsoft').Strategy;
+const InfusionsoftStrategy  = require('@albertopronails/passport-infusionsoft').Strategy;
 const axios = require('axios');
 const bodyParser = require('body-parser');
 app.use(passport.initialize());
